@@ -30,10 +30,12 @@ a {
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  color: #9F6E36;
 }
 
 a:hover {
   text-decoration: none;
+  color: #C68943;
 }
 
 a a:focus {
@@ -232,13 +234,13 @@ ul li, ol li {
 }
 
 .btn-border {
-  color: #fff;
+  color: #2c3d4c;
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #2c3d4c;
 }
 
 .btn-border:hover {
-  color: #fff;
+  color: #9F6C2C;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -596,10 +598,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  display: none;
 }
 
 .navbar-brand img {
-  width: 75%;
+  width: 50%;
 }
 
 .top-nav-collapse {
@@ -619,10 +622,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .top-nav-collapse .navbar-brand {
   top: 0px;
+  display: inline;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
-  color: #212121 !important;
+  color: #2C3D4C !important;
 }
 
 .top-nav-collapse .navbar-nav .nav-link:hover {
@@ -638,7 +642,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  color: #fff;
+  color: #2C3D4C;
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1295,6 +1299,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
+}
+
+/* FAQ */
+#faq .card-body p, #faq .card-body li {
+  margin-bottom: 1em;
 }
 
 /* Team Item */
@@ -2118,6 +2127,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 #main-slide .carousel-item img {
   position: relative;
   width: 100%;
+}
+
+#main-slide .carousel-item img.heading {
+  top: -1em;
+  width: 80%;
 }
 
 #main-slide .carousel-inner .carousel-item::after {
