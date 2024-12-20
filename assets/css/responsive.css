@@ -162,7 +162,10 @@
     font-size: 16px;
   }
   #main-slide .carousel-caption {
-    top: 22%;
+    top: 17%;
+    width: 100%;
+    right: 0%;
+    left: 0%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 14px;
