@@ -1406,13 +1406,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 15px 20px;
   background: #f3f4f3;
   text-align: left;
+  max-width: 90%;
 }
 
 .team-item .info-text h3 {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .team-item .info-text h3 a {
