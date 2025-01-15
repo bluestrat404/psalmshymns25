@@ -1,2 +1,4 @@
+/* Hide card images on schedule, and align the bottom part correctly as a result */
 .card .images-box {display: none;}
 .schedule .card-body{ padding-left: 1.25rem;}
+
