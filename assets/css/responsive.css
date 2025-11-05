@@ -156,16 +156,19 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-title {
-    font-size: 22px;
+    font-size: 34px;
   }
   .section-sub {
     font-size: 16px;
   }
   #main-slide .carousel-caption {
-    top: 17%;
+    top: 10%;
     width: 100%;
     right: 0%;
     left: 0%;
+  }
+  #main-slide .carousel-caption h3 {
+  	font-size: 24px;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 14px;
@@ -189,9 +192,11 @@
   .countdown-timer .heading-count {
     padding: 10px;
   }
-  .countdown-timer .heading-count h2 {
+  /* 
+.countdown-timer .heading-count h2 {
     font-size: 24px;
   }
+ */
   .countdown-timer .heading-count h4 {
     font-size: 12px;
   }

@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Lato:400|League+Spartan:700");
 html {
   overflow-x: hidden;
 }
 
 body {
   background: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   -webkit-box-sizing: border-box;
@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4 {
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 a {
@@ -603,6 +603,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-brand img {
   width: 33%;
+  padding: 0.25em 0;
 }
 
 .top-nav-collapse {
@@ -833,11 +834,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-brand {
     position: absolute;
     /* padding: 15px 15px; */
-    top: 15px !important;
+    top: 5px !important;
     left: 15px;
   }
   .navbar-brand img {
-    width: 50%;
+    width: 43%;
+    padding: 0;
   }
   #mobile-menu {
     display: none;
@@ -949,7 +951,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section .counter p {
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -957,7 +959,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .counter-section .counter span {
   color: #fefefe;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -1304,6 +1306,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* FAQ */
+#faq .card-body {
+  font-size: 16px;
+}
 #faq .card-body p, #faq .card-body li {
   margin-bottom: 1em;
 }
@@ -2138,9 +2143,27 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide .carousel-item img.heading {
-  top: -1em;
-  width: 80%;
+  top: -0.5em;
+  width: 50%;
 }
+
+#main-slide .carousel-inner .carousel-item.active {
+	background-image: url(../img/background/heroLightBG.jpg);
+	background-size: cover;
+	background-position: bottom left;
+	padding: 5em 0;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#main-slide .carousel-item img.heading {
+		width: 83%;
+	}
+	
+	#main-slide .carousel-inner .carousel-item.active {
+		padding-bottom: 2.5em;
+	}
+}
+
 
 #main-slide .carousel-inner .carousel-item::after {
   bottom: 0;
@@ -2178,8 +2201,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-slide .carousel-caption {
   color: #fff;
-  position: absolute;
-  top: 35%;
+  position: static;
 }
 
 #main-slide .carousel-caption .btn {
