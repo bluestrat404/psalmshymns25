@@ -2151,8 +2151,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 #main-slide .carousel-inner .carousel-item.active {
 	background-image: url(../img/background/heroLightBG.jpg);
 	background-size: cover;
-	background-position: bottom left;
-	padding: 5em 0;
+	background-position: bottom center;
+	padding: 5em 2em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -2161,7 +2161,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 	}
 	
 	#main-slide .carousel-inner .carousel-item.active {
-		padding: 2.5em 0;
+		padding: 2.5em 1em;
 	}
 }
 
